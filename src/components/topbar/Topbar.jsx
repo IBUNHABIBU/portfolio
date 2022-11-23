@@ -1,4 +1,5 @@
 import React from 'react';
+import PropTypes from 'prop-types';
 import { Person, Mail } from '@material-ui/icons';
 import './topbar.scss';
 
@@ -17,7 +18,7 @@ const Topbar = ({ menuOpen, setMenuOpen }) => (
         </div>
       </div>
       <div className="right">
-        <div className="humburger">
+        <div className="humburger" onClick={() => setMenuOpen(!menuOpen)}>
           <span className="line1" />
           <span className="line2" />
           <span className="line3" />
@@ -27,4 +28,8 @@ const Topbar = ({ menuOpen, setMenuOpen }) => (
   </div>
 );
 
+Topbar.propTypes = {
+  menuOpen: PropTypes.bool.isRequired,
+  setMenuOpen: PropTypes.func.isRequired,
+};
 export default Topbar;
