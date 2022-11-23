@@ -3,7 +3,7 @@ import { Person, Mail } from '@material-ui/icons';
 import './topbar.scss';
 
 const Topbar = ({ menuOpen, setMenuOpen }) => (
-  <div className={`topbar${menuOpen && 'active'}`}>
+  <div className={`topbar ${menuOpen && 'active'}`}>
     <div className="wrapper">
       <div className="left">
         <a href="#intro" className="logo">Hobbiest.</a>
