@@ -1,4 +1,4 @@
-const menuItems = [{
+const items = [{
   name: 'Intro',
   id: '#intro',
 },
@@ -19,4 +19,4 @@ const menuItems = [{
   id: '#contact',
 },
 ];
-export default menuItems;
+export default items;
