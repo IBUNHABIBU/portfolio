@@ -18,7 +18,7 @@ const Topbar = ({ menuOpen, setMenuOpen }) => (
         </div>
       </div>
       <div className="right">
-        <div className="humburger" onClick={() => setMenuOpen(!menuOpen)}>
+        <div className="humburger" aria-hidden="true" onClick={() => setMenuOpen(!menuOpen)}>
           <span className="line1" />
           <span className="line2" />
           <span className="line3" />

@@ -1,21 +1,15 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 
-const MenuItems = ({ item, id, setMenuOpen }) => (
+const MenuItems = ({ name, id, setMenuOpen }) => (
   <li>
-    <a href={id} onClick={() => setMenuOpen(false)}>{item}</a>
-    
-    {/* <div>
-      <p>{item}</p>
-      <p>{id}</p>
-    </div> */}
+    <a href={id} onClick={() => setMenuOpen(false)}>{name}</a>
   </li>
-
 );
 
-MenuItems.prototype = {
+MenuItems.propTypes = {
   setMenuOpen: PropTypes.func.isRequired,
-  item: PropTypes.string.isRequired,
+  name: PropTypes.string.isRequired,
   id: PropTypes.string.isRequired,
 };
 

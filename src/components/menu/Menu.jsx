@@ -8,13 +8,16 @@ const Menu = ({ menuOpen, setMenuOpen }) => (
   <div className={`menu ${menuOpen && 'active'}`}>
     <ul>
       {
-        items.map(({ name, id }) => <MenuItems key={id} id={id} item={name} setMenuOpen={setMenuOpen} />)
+        items.map((item) => {
+          const { name, id } = item;
+          return <MenuItems key={id} id={id} name={name} setMenuOpen={setMenuOpen} />;
+        })
       }
     </ul>
   </div>
 );
 
-Menu.prototype = {
+Menu.propTypes = {
   menuOpen: PropTypes.bool.isRequired,
   setMenuOpen: PropTypes.func.isRequired,
 };
