@@ -16,7 +16,7 @@ const items = [{
 },
 {
   name: 'Contact',
-  id: '#contact',
+  id: '#contacts',
 },
 ];
 export default items;
