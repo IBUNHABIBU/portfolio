@@ -12,7 +12,7 @@ const Intro = () => (
       <div className="wrapper">
         <h2>Hi there i'm </h2>
         <h1>Salum Habibu</h1>
-        <h3>I am a software developer<span></span></h3>
+        <h3>I am a software developer <span>Electrical</span></h3>
       </div>
       <a href="#portfolio">
           <img src="/down.png" alt="down arrow" />
