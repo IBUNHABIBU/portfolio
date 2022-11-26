@@ -11,6 +11,11 @@ const Portfolio = () => (
       <li>Javascript</li>
       <li>HTML & CSS</li>
     </ul>
+    <div className="container">
+      <div className="item">
+        <img src="carRental.png" alt="car rental" />
+      </div>
+    </div>
   </div>
 );
 
