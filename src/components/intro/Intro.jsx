@@ -5,10 +5,19 @@ const Intro = () => (
   <div className="intro" id="intro">
     <div className="left">
       <div className="imgContainer">
-        <img src="./assets/react.svg" alt="react" />
+          <img src="/profile-removebg-preview.png" alt="Vite logo" />
       </div>
     </div>
-    <div className="right"></div>
+    <div className="right">
+      <div className="wrapper">
+        <h2>Hi there i'm </h2>
+        <h1>Salum Habibu</h1>
+        <h3>I am a software developer<span></span></h3>
+      </div>
+      <a href="#portfolio">
+          <img src="/down.png" alt="down arrow" />
+      </a>
+    </div>
   </div>
 );
 
