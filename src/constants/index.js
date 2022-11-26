@@ -26,7 +26,7 @@ export const lists = [{
 },
 {
   name: 'Ruby on rails',
-  id: 'rails',
+  id: 'Rails',
 },
 {
   name: 'React',
