@@ -1,9 +1,14 @@
-import React from 'react'
+import React from 'react';
+import PropTypes from 'prop-types';
+import './portfolioList.scss';
 
-const PortfolioList = () => {
-  return (
-    <div>PortfolioList</div>
-  )
-}
+const PortfolioList = ({ name }) => (
+  <>
+    <li>{name}</li>
+  </>
+);
 
-export default PortfolioList
+PortfolioList.propTypes = {
+  name: PropTypes.string.isRequired,
+};
+export default PortfolioList;

@@ -2,7 +2,7 @@ import React from 'react';
 import PropTypes from 'prop-types';
 import './menu.scss';
 import MenuItems from '../menuItems/MenuItems';
-import items from '../../constants';
+import { items } from '../../constants';
 
 const Menu = ({ menuOpen, setMenuOpen }) => (
   <div className={`menu ${menuOpen && 'active'}`}>

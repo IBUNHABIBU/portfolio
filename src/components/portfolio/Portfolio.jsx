@@ -1,17 +1,17 @@
 import React from 'react';
+import { lists } from '../../constants';
+import PortfolioList from '../portfolioList/PortfolioList';
 import './portfolio.scss';
 
 const Portfolio = () => (
   <div className="portfolio" id="portfolio">
     <h1>Portfolio</h1>
     <ul>
-      <li className="active">Featured</li>
-      <li>Ruby on rails</li>
-      <li>React</li>
-      <li>Javascript</li>
-      <li>HTML & CSS</li>
+      {
+        lists.map((list) => (<PortfolioList key={list.id} name={list.name} />))
+      }
     </ul>
-    
+
     <div className="container">
       <div className="item">
         <img src="carRental.png" alt="car rental" />

@@ -1,4 +1,4 @@
- export const items = [{
+export const items = [{
   name: 'Intro',
   id: '#intro',
 },
@@ -20,7 +20,7 @@
 },
 ];
 
-const lists = [{
+export const lists = [{
   name: 'Featured',
   id: 'featured',
 },
