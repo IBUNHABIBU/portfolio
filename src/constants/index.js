@@ -1,4 +1,4 @@
-const items = [{
+ export const items = [{
   name: 'Intro',
   id: '#intro',
 },
@@ -19,4 +19,25 @@ const items = [{
   id: '#contacts',
 },
 ];
-export default items;
+
+const lists = [{
+  name: 'Featured',
+  id: 'featured',
+},
+{
+  name: 'Ruby on rails',
+  id: 'rails',
+},
+{
+  name: 'React',
+  id: 'React',
+},
+{
+  name: 'Javascript',
+  id: 'Javascript',
+},
+{
+  name: 'HTML & CSS',
+  id: 'HTML & CSS',
+},
+];
