@@ -1,3 +1,5 @@
+@import '../../global.scss';
+
 .portfolio {
     display: flex;
     flex-direction: column;
@@ -15,9 +17,31 @@
         display: flex;
 
         li {
-            font-size: 12px;
-            margin-right: 5px;
-            padding: 0.7;
+            font-size: 14px;
+            margin-right: 50px;
+            padding: 7px;
+            border-radius: 10px;
+            cursor: pointer;
+
+            &.active {
+                background-color: $mainColor;
+                color: #fff;
+            }
+        }
+    }
+
+    .container {
+        width: 70%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-wrap: wrap;
+
+        .item {
+            width: 220px;
+            height: 150px;
+            border-radius: 20px;
+            border: 1px solid rgb(241, 231, 231);
         }
     }
 }
