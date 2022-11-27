@@ -1,10 +1,11 @@
 import React, { useState } from 'react';
-import { lists } from '../../constants';
+import { lists, featured, rails, react, html } from '../../constants';
 import PortfolioList from '../portfolioList/PortfolioList';
 import './portfolio.scss';
 
 const Portfolio = () => {
   const [selected, setSelected] = useState('featured');
+  const [data, setData] = useState([])
   return (
     <div className="portfolio" id="portfolio">
       <h1>Portfolio</h1>
