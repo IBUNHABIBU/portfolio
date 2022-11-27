@@ -18,6 +18,7 @@ const Portfolio = () => {
               name={name}
               active={selected === id}
               setSelected={setSelected}
+              id={id}
             />
           );
         })

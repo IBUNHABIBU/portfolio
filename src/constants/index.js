@@ -41,3 +41,88 @@ export const lists = [{
   id: 'HTML & CSS',
 },
 ];
+
+export const featured = [{
+  id: 'car',
+  title: 'ATown Car Rental',
+  img: 'carRental.png',
+},
+{
+  id: 'recipes',
+  title: 'Recipes App',
+  img: 'recipes.png',
+},
+{
+  id: 'lifestyle',
+  title: 'Life Style Article',
+  img: 'LifeStlye.png',
+},
+{
+  id: 'social',
+  title: 'Social app',
+  img: 'social.png',
+},
+{
+  id: 'weather',
+  title: 'Weather app',
+  img: 'weather.png',
+},
+];
+
+export const react = [{
+  id: 'car',
+  title: 'ATown Car Rental',
+  img: 'carRental.png',
+},
+{
+  id: 'recipes',
+  title: 'Recipes App',
+  img: 'recipes.png',
+},
+{
+  id: 'calculator',
+  title: 'calculator',
+  img: 'calculator.png',
+},
+{
+  id: 'book',
+  title: 'Book Store',
+  img: 'book.png',
+},
+];
+
+export const rails = [
+  {
+    id: 'lifestyle',
+    title: 'Life Style Article',
+    img: 'LifeStlye.png',
+  },
+  {
+    id: 'social',
+    title: 'Social app',
+    img: 'social.png',
+  },
+  {
+    id: 'weather',
+    title: 'Weather app',
+    img: 'weather.png',
+  },
+];
+
+export const javasript = [{
+  id: 'restaurant',
+  title: 'Restaurant Page',
+  img: 'restaurant.png',
+},
+{
+  id: 'books',
+  title: 'Books Library',
+  img: 'books.png',
+},
+
+{
+  id: 'weather',
+  title: 'Weather app',
+  img: 'weather.png',
+},
+];
