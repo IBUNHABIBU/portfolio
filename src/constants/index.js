@@ -124,5 +124,36 @@ export const javasript = [{
   id: 'weather',
   title: 'Weather app',
   img: 'weather.png',
+},{
+  id: 'todo',
+  title: 'To do list',
+  img: 'todolist.gif',
+},
+];
+
+export const html = [{
+  id: 'car',
+  title: 'Newsweek Web Clone',
+  img: 'carRental.png',
+},
+{
+  id: 'recipes',
+  title: 'Recipes App',
+  img: 'recipes.png',
+},
+{
+  id: 'lifestyle',
+  title: 'Life Style Article',
+  img: 'LifeStlye.png',
+},
+{
+  id: 'social',
+  title: 'Social app',
+  img: 'social.png',
+},
+{
+  id: 'weather',
+  title: 'Weather app',
+  img: 'weather.png',
 },
 ];
