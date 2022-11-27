@@ -87,7 +87,7 @@ export const react = [{
 {
   id: 'book',
   title: 'Book Store',
-  img: 'book.png',
+  img: 'books.png',
 },
 ];
 
@@ -101,11 +101,6 @@ export const rails = [
     id: 'social',
     title: 'Social app',
     img: 'social.png',
-  },
-  {
-    id: 'weather',
-    title: 'Weather app',
-    img: 'weather.png',
   },
 ];
 

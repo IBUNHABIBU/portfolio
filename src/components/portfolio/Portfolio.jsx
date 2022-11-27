@@ -1,5 +1,7 @@
 import React, { useEffect, useState } from 'react';
-import { lists, featured, rails, react, html, javasript } from '../../constants';
+import {
+  lists, featured, rails, react, html, javasript,
+} from '../../constants';
 import PortfolioList from '../portfolioList/PortfolioList';
 import './portfolio.scss';
 
@@ -8,33 +10,32 @@ const Portfolio = () => {
   const [data, setData] = useState([]);
 
   useEffect(() => {
-   switch (selected) {
-    case "featured":
-    setData(featured);
-    break;
+    switch (selected) {
+      case 'featured':
+        setData(featured);
+        break;
 
-    case "Ruby on Rails":
-    setData(rails);
-    break;
+      case 'Rails':
+        setData(rails);
+        break;
 
-    case "React":
-    setData(react);
-    break;
+      case 'React':
+        setData(react);
+        break;
 
-    case "Javascript":
-    setData(javasript);
-    break;
+      case 'Javascript':
+        setData(javasript);
+        break;
 
-    case "HTML & CSS":
-    setData(html);
-    break;
+      case 'HTML & CSS':
+        setData(html);
+        break;
 
-    default:
-      setData(featured);
-   }
-   
-  }, [selected])
-  
+      default:
+        setData(featured);
+    }
+  }, [selected]);
+
   return (
     <div className="portfolio" id="portfolio">
       <h1>Portfolio</h1>
@@ -57,17 +58,17 @@ const Portfolio = () => {
 
       <div className="container">
         {
-          data.map( element => {
+          data.map((element) => {
             const { id, title, img } = element;
-            return(
-              <div className="item" key = {id}>
-              <img src={img} alt={id} />
-              <h3>{title}</h3>
-            </div>
-            )
+            return (
+              <div className="item" key={id}>
+                <img src={img} alt={id} />
+                <h3>{title}</h3>
+              </div>
+            );
           })
         }
-       
+
       </div>
     </div>
   );
