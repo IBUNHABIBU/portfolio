@@ -7,8 +7,8 @@ function Works() {
       <div className="slider">
         <div className="container">
           <div className="item">
-            <div className="left"></div>
-            <div className="right"></div>
+            <div className="left">left</div>
+            <div className="right">Right</div>
           </div>
         </div>
       </div>
