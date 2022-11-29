@@ -1,14 +1,15 @@
-import React from 'react';
+import React, { useState } from 'react';
 import { data } from '../../constants';
 import './works.scss';
 
 function Works() {
+  const [slide, setSlide] = useState(0)
   return (
     <div className="works" id="works">
       <div className="slider">
         { data.map((item) => {
           const {
-            id, title, desc, imTag,
+            id, title, icon, desc, imTag,
           } = item;
           return (
 
@@ -17,7 +18,7 @@ function Works() {
                 <div className="left">
                   <div className="leftContainer">
                     <div className="imgContainer">
-                      <img src="mobile.png" alt="mobile" />
+                      <img src={icon} alt="mobile" />
                     </div>
                     <h2>{title}</h2>
                     <p>
@@ -28,7 +29,7 @@ function Works() {
                 </div>
                 <div className="right">
                   <img
-                    src="https://99designs-blog.imgix.net/blog/wp-content/uploads/2020/09/remote_work_infographic_blog.png?auto=format&q=60&w=450&h=270&fit=crop&crop=faces"
+                    src={imTag}
                     alt="websitetemplate"
                   />
                 </div>
