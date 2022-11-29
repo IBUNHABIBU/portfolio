@@ -148,17 +148,17 @@ export const data = [
   },
   {
     id: 'car',
-    title: 'ATown Car Rental',
+    title: 'Ninos Kitchen',
     icon: 'writing.png',
-    desc: 'A car rental website that allows users to rent a car for a day or more. Users can choose a car from the list of available cars and book it for a day or more. Users can also see the list of cars they have booked and the total amount they have to pay.',
+    desc: 'A kitchen website that allows users to order food online. Users can choose a food from the list of available food and order it. Users can also see the list of food they have ordered and the total amount they have to pay.',
     imTag: 'https://99designs-blog.imgix.net/blog/wp-content/uploads/2018/10/attachment_100040756-e1538485934255.jpeg?auto=format&q=60&fit=max&w=930',
   },
 
   {
     id: 'car',
-    title: 'ATown Car Rental',
+    title: 'Workout tracker',
     icon: 'mobile.png',
-    desc: 'A car rental website that allows users to rent a car for a day or more. Users can choose a car from the list of available cars and book it for a day or more. Users can also see the list of cars they have booked and the total amount they have to pay.',
+    desc: 'A workout tracker website that allows users to track their workouts. Users can add a workout and see the list of workouts they have added.',
     imTag: 'https://i.pinimg.com/originals/a9/f6/94/a9f69465d972a004ad581f245d6ad581.jpg',
   },
 ];
