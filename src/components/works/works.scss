@@ -3,6 +3,7 @@
     display: flex;
     align-items: center;
     justify-content: center;
+    position: relative;
 
     .slider {
         height: 350px;
@@ -76,6 +77,7 @@
 
                     img {
                         width: 400px;
+                        transform: rotate(-10deg);
                     }
                 }
 

@@ -30,6 +30,8 @@ function Works() {
           </div>
         </div>
       </div>
+      <img src="arrow.png" alt="arrow left" />
+      <img src="arrow.png" alt="arrow right" />
     </div>
   );
 }
