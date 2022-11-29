@@ -137,3 +137,34 @@ export const html = [{
   img: 'gridhome.png',
 },
 ];
+
+export const data = [
+  {
+    id: 'car',
+    title: 'ATown Car Rental',
+    img: 'carRental.png',
+    desc: 'A car rental website that allows users to rent a car for a day or more. Users can choose a car from the list of available cars and book it for a day or more. Users can also see the list of cars they have booked and the total amount they have to pay.',
+    imTag: 'carRental.png',
+  },
+  {
+    id: 'car',
+    title: 'ATown Car Rental',
+    img: 'carRental.png',
+    desc: 'A car rental website that allows users to rent a car for a day or more. Users can choose a car from the list of available cars and book it for a day or more. Users can also see the list of cars they have booked and the total amount they have to pay.',
+    imTag: 'carRental.png',
+  },
+  {
+    id: 'car',
+    title: 'ATown Car Rental',
+    img: 'carRental.png',
+    desc: 'A car rental website that allows users to rent a car for a day or more. Users can choose a car from the list of available cars and book it for a day or more. Users can also see the list of cars they have booked and the total amount they have to pay.',
+    imTag: 'carRental.png',
+  },
+  {
+    id: 'car',
+    title: 'ATown Car Rental',
+    img: 'carRental.png',
+    desc: 'A car rental website that allows users to rent a car for a day or more. Users can choose a car from the list of available cars and book it for a day or more. Users can also see the list of cars they have booked and the total amount they have to pay.',
+    imTag: 'carRental.png',
+  },
+];
