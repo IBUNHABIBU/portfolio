@@ -6,7 +6,9 @@ function Works() {
   const [slide, setSlide] = useState(0)
   return (
     <div className="works" id="works">
-      <div className="slider">
+      <div className="slider"
+        style={{ transform: `translateX(-${slide * 100}vw)` }}
+      >
         { data.map((item) => {
           const {
             id, title, icon, desc, imTag,
@@ -39,8 +41,8 @@ function Works() {
           );
         })}
       </div>
-      <img src="arrow.png" alt="arrow left" className="arrow left" />
-      <img src="arrow.png" alt="arrow right" className="arrow right" />
+      <img src="arrow.png" alt="arrow left" className="arrow left" onClick={() => handleClick("left")}/>
+      <img src="arrow.png" alt="arrow right" className="arrow right"onClick={() => handleClick()} />
     </div>
   );
 }
