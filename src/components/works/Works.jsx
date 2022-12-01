@@ -6,7 +6,8 @@ function Works() {
   const [slide, setSlide] = useState(0);
 
   const handleClick = (way) => {
-    way === 'left' ? setSlide(slide > 0 ? slide - 1 : 2) : setSlide(slide < data.length - 1 ? slide + 1 : 0);
+    const result = way === 'left' ? setSlide(slide > 0 ? slide - 1 : 2) : setSlide(slide < data.length - 1 ? slide + 1 : 0);
+    return result;
   };
 
   return (
