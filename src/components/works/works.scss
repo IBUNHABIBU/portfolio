@@ -35,6 +35,12 @@
                 align-items: center;
                 justify-content: center;
 
+                @include mobile {
+                    width: 90%;
+                    height: 180px;
+                    margin: 5px 0;
+                }
+
                 .left {
                     flex: 4;
                     height: 80%;
