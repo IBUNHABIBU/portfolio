@@ -9,12 +9,12 @@ const Testimonials = () => (
       {
         testimonialData.map((data) => {
           const {
-            id, name, title, img, icon, desc,
+            id, name, title, img, icon, desc, featured
           } = data;
           return (
-            <div className="card" key={id}>
+            <div className={ featured ? "card featured" : "card" } key={id}>
               <div className="top">
-                <img src="assets/right-arrow.png" alt="" className="left" />
+                <img src="/right-arrow.png" alt="" className="left" />
                 <img src={img} alt="" className="user" />
                 <img src={icon} alt="" className="right" />
               </div>
