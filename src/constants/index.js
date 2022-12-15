@@ -46,26 +46,36 @@ export const featured = [{
   id: 'car',
   title: 'ATown Car Rental',
   img: 'carRental.png',
+  github: 'https://github.com/IBUNHABIBU/final-capstone',
+  live: '#/',
 },
 {
   id: 'recipes',
   title: 'Recipes App',
   img: 'recipes.png',
+  github: 'https://github.com/IBUNHABIBU/catalogue_of_recipes',
+  live: '#/',
 },
 {
   id: 'lifestyle',
   title: 'Life Style Article',
   img: 'LifeStlye.png',
+  github: 'https://github.com/IBUNHABIBU/lifestyle-articles',
+  live: '#/',
 },
 {
   id: 'social',
   title: 'Social app',
   img: 'social.png',
+  github: 'https://github.com/IBUNHABIBU/ror-social-scaffold',
+  live: '#/',
 },
 {
   id: 'weather',
   title: 'Weather app',
   img: 'weather.png',
+  github: 'https://github.com/IBUNHABIBU/weather-app',
+  live: '#/',
 },
 ];
 
@@ -73,11 +83,15 @@ export const react = [{
   id: 'car',
   title: 'ATown Car Rental',
   img: 'carRental.png',
+  github: 'https://github.com/IBUNHABIBU/final-capstone',
+  live: '#/',
 },
 {
   id: 'recipes',
   title: 'Recipes App',
   img: 'recipes.png',
+  github: 'https://github.com/IBUNHABIBU/catalogue_of_recipes',
+  live: '#/',
 },
 {
   id: 'calculator',
@@ -147,7 +161,7 @@ export const data = [
     imTag: 'https://99designs-blog.imgix.net/blog/wp-content/uploads/2020/09/remote_work_infographic_blog.png?auto=format&q=60&w=450&h=270&fit=crop&crop=faces',
   },
   {
-    id: 'car',
+    id: 'nino',
     title: 'Ninos Kitchen',
     icon: 'writing.png',
     desc: 'A kitchen website that allows users to order food online. Users can choose a food from the list of available food and order it. Users can also see the list of food they have ordered and the total amount they have to pay.',
