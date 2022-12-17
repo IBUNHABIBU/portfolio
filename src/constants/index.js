@@ -169,7 +169,7 @@ export const data = [
   },
 
   {
-    id: 'car',
+    id: 'workout',
     title: 'Workout tracker',
     icon: 'mobile.png',
     desc: 'A workout tracker website that allows users to track their workouts. Users can add a workout and see the list of workouts they have added.',
