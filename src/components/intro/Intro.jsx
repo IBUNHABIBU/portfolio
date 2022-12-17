@@ -7,6 +7,8 @@ const Intro = () => {
   useEffect(() => {
     init(textRef.current, {
       showCursor: false,
+      backDelay: 1500,
+      backSpeed: 60,
       strings: ['Electrical', 'Software Developer'],
     });
   }, []);
