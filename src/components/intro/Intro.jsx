@@ -26,7 +26,7 @@ const Intro = () => {
           <h1>Salum Habibu</h1>
           <h3>
             I am a
-            <span ref={textRef}></span>
+            <span ref={textRef} />
           </h3>
         </div>
         <a href="#portfolio">
