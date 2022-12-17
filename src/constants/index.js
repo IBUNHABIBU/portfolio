@@ -54,7 +54,7 @@ export const featured = [{
   title: 'Recipes App',
   img: 'recipes.png',
   github: 'https://github.com/IBUNHABIBU/catalogue_of_recipes',
-  live: '#/',
+  live: 'https://slm-recipezone.netlify.app/',
 },
 {
   id: 'lifestyle',
@@ -75,7 +75,7 @@ export const featured = [{
   title: 'Weather app',
   img: 'weather.png',
   github: 'https://github.com/IBUNHABIBU/weather-app',
-  live: '#/',
+  live: 'https://ibunhabibuweather.netlify.app/',
 },
 ];
 
@@ -91,7 +91,7 @@ export const react = [{
   title: 'Recipes App',
   img: 'recipes.png',
   github: 'https://github.com/IBUNHABIBU/catalogue_of_recipes',
-  live: '#/',
+  live: 'https://slm-recipezone.netlify.app/',
 },
 {
   id: 'calculator',

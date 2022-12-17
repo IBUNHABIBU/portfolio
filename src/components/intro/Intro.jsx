@@ -22,11 +22,10 @@ const Intro = () => {
       </div>
       <div className="right">
         <div className="wrapper">
-          <h2>Hi there I am </h2>
+          <h2>Hi there I'm </h2>
           <h1>Salum Habibu</h1>
           <h3>
-            I am a
-            <span ref={textRef} />
+            <span>a Sofware Developer</span>
           </h3>
         </div>
         <a href="#portfolio">
