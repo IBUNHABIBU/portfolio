@@ -114,12 +114,15 @@ export const rails = [
     id: 'lifestyle',
     title: 'Life Style Article',
     img: 'LifeStlye.png',
-    github: '
+    github: 'https://github.com/IBUNHABIBU/lifestyle_articles',
+    live: '#',
   },
   {
     id: 'social',
     title: 'Social app',
     img: 'social.png',
+    github: 'https://github.com/IBUNHABIBU/ror-social-scaffold',
+    live: '#',
   },
 ];
 
