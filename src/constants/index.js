@@ -47,7 +47,7 @@ export const featured = [{
   title: 'ATown Car Rental',
   img: 'carRental.png',
   github: 'https://github.com/IBUNHABIBU/final-capstone',
-  live: '#/',
+  live: 'https://salum-microverse-final-capstone.netlify.app',
 },
 {
   id: 'recipes',
@@ -84,7 +84,7 @@ export const react = [{
   title: 'ATown Car Rental',
   img: 'carRental.png',
   github: 'https://github.com/IBUNHABIBU/final-capstone',
-  live: '#/',
+  live: 'https://salum-microverse-final-capstone.netlify.app',
 },
 {
   id: 'recipes',
