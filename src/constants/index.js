@@ -114,6 +114,7 @@ export const rails = [
     id: 'lifestyle',
     title: 'Life Style Article',
     img: 'LifeStlye.png',
+    github: '
   },
   {
     id: 'social',
