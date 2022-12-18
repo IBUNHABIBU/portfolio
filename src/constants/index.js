@@ -105,7 +105,7 @@ export const react = [{
   title: 'Book Store',
   img: 'books.png',
   github: 'https://github.com/IBUNHABIBU/react-bookstore',
-  live: 'slm-book-store.netlify.app',
+  live: 'https://slm-book-store.netlify.app',
 },
 ];
 
