@@ -142,14 +142,14 @@ export const javasript = [{
   title: 'Weather app',
   img: 'weather.png',
   github: 'https://github.com/IBUNHABIBU/weather-app',
-  live: 'https://ibunhabibuweather.netlify.app/'
+  live: 'https://ibunhabibuweather.netlify.app/',
 }, {
   id: 'todo',
   title: 'To do list',
   img: 'todolist.gif',
   github: 'https://github.com/IBUNHABIBU/todo-list',
   live: 'https://rawcdn.githack.com/IBUNHABIBU/todo-list/cd1daf36adc8ee0da82d1051a6378d094988e2d3/dist/index.html',
-  },
+},
 ];
 
 export const html = [{
