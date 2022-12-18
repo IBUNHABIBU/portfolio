@@ -6,14 +6,14 @@ export const items = [{
   name: 'Portfolio',
   id: '#portfolio',
 },
-{
-  name: 'Works',
-  id: '#works',
-},
-{
-  name: 'Testimonials',
-  id: '#testimonials',
-},
+// {
+//   name: 'Works',
+//   id: '#works',
+// },
+// {
+//   name: 'Testimonials',
+//   id: '#testimonials',
+// },
 {
   name: 'Contact',
   id: '#contacts',
