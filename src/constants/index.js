@@ -97,11 +97,15 @@ export const react = [{
   id: 'calculator',
   title: 'calculator',
   img: 'calculator.png',
+  github: 'https://github.com/IBUNHABIBU/react-calculator',
+  live: 'https://react-mathics.netlify.app/',
 },
 {
   id: 'book',
   title: 'Book Store',
   img: 'books.png',
+  github: 'https://github.com/IBUNHABIBU/react-bookstore',
+  live: 'slm-book-store.netlify.app',
 },
 ];
 
@@ -122,33 +126,45 @@ export const javasript = [{
   id: 'restaurant',
   title: 'Restaurant Page',
   img: 'restaurant.png',
+  github: 'https://github.com/IBUNHABIBU/restaurant_page',
+  live: 'https://raw.githack.com/IBUNHABIBU/restaurant_page/modules/dist/index.html',
 },
 {
   id: 'books',
   title: 'Books Library',
   img: 'books.png',
+  github: 'https://github.com/IBUNHABIBU/library',
+  live: 'https://rawcdn.githack.com/IBUNHABIBU/library/43f8b5aa5ef6ae7d81689dd0e958fcbdf4782fff/booklibrary.html',
 },
 
 {
   id: 'weather',
   title: 'Weather app',
   img: 'weather.png',
+  github: 'https://github.com/IBUNHABIBU/weather-app',
+  live: 'https://ibunhabibuweather.netlify.app/'
 }, {
   id: 'todo',
   title: 'To do list',
   img: 'todolist.gif',
-},
+  github: 'https://github.com/IBUNHABIBU/todo-list',
+  live: 'https://rawcdn.githack.com/IBUNHABIBU/todo-list/cd1daf36adc8ee0da82d1051a6378d094988e2d3/dist/index.html',
+  },
 ];
 
 export const html = [{
   id: 'newsweek',
-  title: 'Newsweek Web Clone',
+  title: 'Bootstrap Project',
   img: 'newsweekhome.png',
+  github: 'https://github.com/IBUNHABIBU/Bootstrap-Project',
+  live: 'https://raw.githack.com/IBUNHABIBU/Bootstrap-Project/master/index.html',
 },
 {
   id: 'diygrid',
   title: 'DIY Grid framework',
   img: 'gridhome.png',
+  github: 'https://github.com/IBUNHABIBU/GRID-FRAMEWORK',
+  live: 'https://raw.githack.com/IBUNHABIBU/GRID-FRAMEWORK/gridframework/index.html',
 },
 ];
 
