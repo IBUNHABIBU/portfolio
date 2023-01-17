@@ -59,10 +59,15 @@
 
             .project {
                 position: absolute;
-                height: 60%;
-
+                height: 100%;
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                
                 .button-group {
-                    height: 70%;
+                    position: relative;
+                    width: 100%;
+                    display: flex;
                 }
                 @include mobile {
                     width: 100%;
