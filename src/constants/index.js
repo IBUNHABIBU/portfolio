@@ -20,26 +20,27 @@ export const items = [{
 },
 ];
 
-export const lists = [{
-  name: 'Featured',
-  id: 'featured',
-},
-{
-  name: 'Ruby on rails',
-  id: 'Rails',
-},
-{
-  name: 'React',
-  id: 'React',
-},
-{
-  name: 'Javascript',
-  id: 'Javascript',
-},
-{
-  name: 'HTML & CSS',
-  id: 'HTML & CSS',
-},
+export const lists = [
+  // {
+//   name: 'Featured',
+//   id: 'featured',
+// },
+// {
+//   name: 'Ruby on rails',
+//   id: 'Rails',
+// },
+  {
+    name: 'React',
+    id: 'React',
+  },
+  {
+    name: 'Javascript',
+    id: 'Javascript',
+  },
+  {
+    name: 'HTML & CSS',
+    id: 'HTML & CSS',
+  },
 ];
 
 export const featured = [{
@@ -79,34 +80,35 @@ export const featured = [{
 },
 ];
 
-export const react = [{
-  id: 'car',
-  title: 'ATown Car Rental',
-  img: 'carRental.png',
-  github: 'https://github.com/IBUNHABIBU/final-capstone',
-  live: 'https://salum-microverse-final-capstone.netlify.app',
-},
-{
-  id: 'recipes',
-  title: 'Recipes App',
-  img: 'recipes.png',
-  github: 'https://github.com/IBUNHABIBU/catalogue_of_recipes',
-  live: 'https://slm-recipezone.netlify.app/',
-},
-{
-  id: 'calculator',
-  title: 'calculator',
-  img: 'calculator.png',
-  github: 'https://github.com/IBUNHABIBU/react-calculator',
-  live: 'https://react-mathics.netlify.app/',
-},
-{
-  id: 'book',
-  title: 'Book Store',
-  img: 'books.png',
-  github: 'https://github.com/IBUNHABIBU/react-bookstore',
-  live: 'https://slm-book-store.netlify.app',
-},
+export const react = [
+//   {
+//   id: 'car',
+//   title: 'ATown Car Rental',
+//   img: 'carRental.png',
+//   github: 'https://github.com/IBUNHABIBU/final-capstone',
+//   live: 'https://salum-microverse-final-capstone.netlify.app',
+// },
+  {
+    id: 'recipes',
+    title: 'Recipes App',
+    img: 'recipes.png',
+    github: 'https://github.com/IBUNHABIBU/catalogue_of_recipes',
+    live: 'https://slm-recipezone.netlify.app/',
+  },
+  {
+    id: 'calculator',
+    title: 'calculator',
+    img: 'calculator.png',
+    github: 'https://github.com/IBUNHABIBU/react-calculator',
+    live: 'https://react-mathics.netlify.app/',
+  },
+  {
+    id: 'book',
+    title: 'Book Store',
+    img: 'books.png',
+    github: 'https://github.com/IBUNHABIBU/react-bookstore',
+    live: 'https://slm-book-store.netlify.app',
+  },
 ];
 
 export const rails = [
