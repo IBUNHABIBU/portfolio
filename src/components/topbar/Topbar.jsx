@@ -1,6 +1,8 @@
 import React from 'react';
 import PropTypes from 'prop-types';
-import { Person, Mail, GitHub, LinkedIn } from '@material-ui/icons';
+import {
+  Person, Mail, GitHub, LinkedIn,
+} from '@material-ui/icons';
 import './topbar.scss';
 
 const Topbar = ({ menuOpen, setMenuOpen }) => (
@@ -17,13 +19,15 @@ const Topbar = ({ menuOpen, setMenuOpen }) => (
           <span>ibunhabib@gmail.com</span>
         </div>
         <div className="itemContainer">
-          <a href='https://www.linkedin.com/in/salum-habibu/'>
-          <LinkedIn className="icon" />LinkedIn
+          <a href="https://www.linkedin.com/in/salum-habibu/">
+            <LinkedIn className="icon" />
+            LinkedIn
           </a>
         </div>
         <div className="itemContainer">
-          <a href='https://github.com/IBUNHABIBU'>
-            <GitHub className="icon" />Github
+          <a href="https://github.com/IBUNHABIBU">
+            <GitHub className="icon" />
+            Github
           </a>
         </div>
       </div>

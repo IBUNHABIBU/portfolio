@@ -69,7 +69,9 @@
     &.active {
         background-color: $mainColor;
         color: white;
-
+            a {
+                color: white;
+            }
         .humburger {
             span {
                 &.line1 {
