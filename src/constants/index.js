@@ -25,10 +25,10 @@ export const lists = [
 //   name: 'Featured',
 //   id: 'featured',
 // },
-// {
-//   name: 'Ruby on rails',
-//   id: 'Rails',
-// },
+  {
+    name: 'Ruby on rails',
+    id: 'Rails',
+  },
   {
     name: 'React',
     id: 'React',
@@ -117,15 +117,15 @@ export const rails = [
     title: 'Life Style Article',
     img: 'LifeStlye.png',
     github: 'https://github.com/IBUNHABIBU/lifestyle_articles',
-    live: '#',
+    live: 'https://darlive.onrender.com/',
   },
-  {
-    id: 'social',
-    title: 'Social app',
-    img: 'social.png',
-    github: 'https://github.com/IBUNHABIBU/ror-social-scaffold',
-    live: '#',
-  },
+  // {
+  //   id: 'social',
+  //   title: 'Social app',
+  //   img: 'social.png',
+  //   github: 'https://github.com/IBUNHABIBU/ror-social-scaffold',
+  //   live: '#',
+  // },
 ];
 
 export const javasript = [{
