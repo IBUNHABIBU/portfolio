@@ -116,7 +116,7 @@ export const rails = [
     id: 'lifestyle',
     title: 'Life Style Article',
     img: 'LifeStlye.png',
-    github: 'https://github.com/IBUNHABIBU/lifestyle_articles',
+    github: 'https://github.com/IBUNHABIBU/deployblog',
     live: 'https://darlive.onrender.com/',
   },
   // {
