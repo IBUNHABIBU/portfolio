@@ -61,8 +61,8 @@ export const featured = [{
   id: 'lifestyle',
   title: 'Life Style Article',
   img: 'LifeStlye.png',
-  github: 'https://github.com/IBUNHABIBU/lifestyle-articles',
-  live: '#/',
+  github: 'https://github.com/IBUNHABIBU/deployblog',
+  live: 'https://darlive.onrender.com/',
 },
 // {
 //   id: 'social',
