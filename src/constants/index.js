@@ -64,13 +64,13 @@ export const featured = [{
   github: 'https://github.com/IBUNHABIBU/lifestyle-articles',
   live: '#/',
 },
-{
-  id: 'social',
-  title: 'Social app',
-  img: 'social.png',
-  github: 'https://github.com/IBUNHABIBU/ror-social-scaffold',
-  live: '#/',
-},
+// {
+//   id: 'social',
+//   title: 'Social app',
+//   img: 'social.png',
+//   github: 'https://github.com/IBUNHABIBU/ror-social-scaffold',
+//   live: '#/',
+// },
 {
   id: 'weather',
   title: 'Weather app',
