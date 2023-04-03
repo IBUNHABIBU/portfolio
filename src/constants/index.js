@@ -21,10 +21,10 @@ export const items = [{
 ];
 
 export const lists = [
-  // {
-//   name: 'Featured',
-//   id: 'featured',
-// },
+  {
+  name: 'Featured',
+  id: 'featured',
+},
   {
     name: 'Ruby on rails',
     id: 'Rails',
@@ -81,13 +81,13 @@ export const featured = [{
 ];
 
 export const react = [
-//   {
-//   id: 'car',
-//   title: 'ATown Car Rental',
-//   img: 'carRental.png',
-//   github: 'https://github.com/IBUNHABIBU/final-capstone',
-//   live: 'https://salum-microverse-final-capstone.netlify.app',
-// },
+  {
+  id: 'car',
+  title: 'ATown Car Rental',
+  img: 'carRental.png',
+  github: 'https://github.com/IBUNHABIBU/final-capstone',
+  live: 'https://salum-microverse-final-capstone.netlify.app',
+},
   {
     id: 'recipes',
     title: 'Recipes App',
