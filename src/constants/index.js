@@ -123,7 +123,7 @@ export const rails = [
     id: 'car',
     title: 'ATown Car Rental',
     img: 'carRental.png',
-    github: 'https://github.com/IBUNHABIBU/final-capstone',
+    github: 'https://github.com/IBUNHABIBU/car-rent-booking-api',
     live: 'https://salum-microverse-final-capstone.netlify.app',
   },
   // {
