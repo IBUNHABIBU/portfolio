@@ -118,7 +118,8 @@ export const rails = [
     img: 'LifeStlye.png',
     github: 'https://github.com/IBUNHABIBU/deployblog',
     live: 'https://darlive.onrender.com/',
-  },{
+  },
+  {
     id: 'car',
     title: 'ATown Car Rental',
     img: 'carRental.png',
