@@ -19,13 +19,13 @@ const Topbar = ({ menuOpen, setMenuOpen }) => (
           <span>ibunhabib@gmail.com</span>
         </div>
         <div className="itemContainer">
-          <a href="https://www.linkedin.com/in/salum-habibu/">
+          <a href="https://www.linkedin.com/in/salum-habibu/" target="_blank" rel="noreferrer">
             <LinkedIn className="icon" />
             LinkedIn
           </a>
         </div>
         <div className="itemContainer">
-          <a href="https://github.com/IBUNHABIBU">
+          <a href="https://github.com/IBUNHABIBU" target="_blank" rel="noreferrer">
             <GitHub className="icon" />
             Github
           </a>
