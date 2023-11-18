@@ -61,7 +61,7 @@ export const featured = [{
   id: 'lifestyle',
   title: 'Life Style Article',
   img: 'LifeStlye.png',
-  github: 'https://github.com/IBUNHABIBU/deployblog',
+  github: 'https://github.com/IBUNHABIBU/linodeblog',
   live: 'http://darlive.cyou/',
 },
 // {
@@ -116,7 +116,7 @@ export const rails = [
     id: 'lifestyle',
     title: 'Life Style Article',
     img: 'LifeStlye.png',
-    github: 'https://github.com/IBUNHABIBU/deployblog',
+    github: 'https://github.com/IBUNHABIBU/linodeblog',
     live: 'http://darlive.cyou/',
   },
   {
