@@ -12,7 +12,7 @@ const Topbar = ({ menuOpen, setMenuOpen }) => (
         <a href="#intro" className="logo">Engineer.</a>
         <div className="itemContainer">
           <Person className="icon" />
-          <span>+255717722477</span>
+          <span>+255752443624 or +255717722477 </span>
         </div>
         <div className="itemContainer">
           <Mail className="icon" />
