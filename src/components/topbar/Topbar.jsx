@@ -16,7 +16,7 @@ const Topbar = ({ menuOpen, setMenuOpen }) => (
         </div>
         <div className="itemContainer">
           <Mail className="icon" />
-          <span>ibunhabib@gmail.com</span>
+          <span>contact@ibunhabibu.dev</span>
         </div>
         <div className="itemContainer">
           <a href="https://www.linkedin.com/in/salum-habibu/" target="_blank" rel="noreferrer">
