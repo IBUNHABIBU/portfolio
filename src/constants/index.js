@@ -117,7 +117,7 @@ export const rails = [
     title: 'Life Style Article',
     img: 'LifeStlye.png',
     github: 'https://github.com/IBUNHABIBU/linodeblog',
-    live: 'http://darlive.cyou/',
+    live: 'https://writehub.cyou/',
   },
   {
     id: 'car',
