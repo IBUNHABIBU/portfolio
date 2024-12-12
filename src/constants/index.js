@@ -62,7 +62,7 @@ export const featured = [{
   title: 'Life Style Article',
   img: 'LifeStlye.png',
   github: 'https://github.com/IBUNHABIBU/linodeblog',
-  live: 'http://darlive.cyou/',
+  live: 'https://writehub.cyou/',
 },
 // {
 //   id: 'social',
