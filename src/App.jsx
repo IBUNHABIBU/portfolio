@@ -5,7 +5,7 @@ import Portfolio from './components/portfolio/Portfolio';
 // import Testimonials from './components/testmonials/Testimonials';
 import Topbar from './components/topbar/Topbar';
 import Menu from './components/menu/Menu';
-// import Works from './components/works/Works';
+import Works from './components/works/Works';
 import './app.scss';
 
 function App() {
@@ -17,7 +17,7 @@ function App() {
       <div className="sections">
         <Intro />
         <Portfolio />
-        {/* <Works /> */}
+        <Works />
         {/* <Testimonials /> */}
         <Contacts />
       </div>

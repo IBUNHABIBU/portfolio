@@ -6,10 +6,10 @@ export const items = [{
   name: 'Portfolio',
   id: '#portfolio',
 },
-// {
-//   name: 'Works',
-//   id: '#works',
-// },
+{
+  name: 'Works',
+  id: '#works',
+},
 // {
 //   name: 'Testimonials',
 //   id: '#testimonials',
