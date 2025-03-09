@@ -131,7 +131,7 @@ export const rails = [
     title: 'Kamich technoloies website',
     img: 'social.png',
     github: 'https://github.com/IBUNHABIBU/ror-social-scaffold',
-    live: '#',
+    live: '',
   },
 ];
 
