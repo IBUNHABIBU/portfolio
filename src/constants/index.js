@@ -127,8 +127,8 @@ export const rails = [
     live: 'https://salum-microverse-final-capstone.netlify.app',
   },
   {
-    id: 'social',
-    title: 'Social app',
+    id: 'kamich',
+    title: 'Kamich technoloies website',
     img: 'social.png',
     github: 'https://github.com/IBUNHABIBU/ror-social-scaffold',
     live: '#',
