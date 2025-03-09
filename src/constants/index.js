@@ -184,11 +184,11 @@ export const html = [{
 export const data = [
   {
     id: 'kamich',
-    title: 'Kimich technologies Website',
-    icon: 'globe.png',
-    desc: 'A website for A Kamich technologies.',
-    imTag: 'https://99designs-blog.imgix.net/blog/wp-content/uploads/2020/09/remote_work_infographic_blog.png?auto=format&q=60&w=450&h=270&fit=crop&crop=faces',
-  },
+    title: 'Kamich technoloies website',
+    img: 'social.png',
+    github: 'https://github.com/IBUNHABIBU/ror-social-scaffold',
+    live: 'https://kamich.co.tz/',
+  }, },
   {
     id: 'nino',
     title: 'Ninos Kitchen',
