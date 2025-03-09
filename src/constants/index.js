@@ -188,7 +188,7 @@ export const data = [
     img: 'social.png',
     github: 'https://github.com/IBUNHABIBU/ror-social-scaffold',
     live: 'https://kamich.co.tz/',
-  }, },
+  }, }
   {
     id: 'nino',
     title: 'Ninos Kitchen',
