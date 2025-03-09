@@ -126,13 +126,13 @@ export const rails = [
     github: 'https://github.com/IBUNHABIBU/carlinode',
     live: 'https://salum-microverse-final-capstone.netlify.app',
   },
-  // {
-  //   id: 'social',
-  //   title: 'Social app',
-  //   img: 'social.png',
-  //   github: 'https://github.com/IBUNHABIBU/ror-social-scaffold',
-  //   live: '#',
-  // },
+  {
+    id: 'social',
+    title: 'Social app',
+    img: 'social.png',
+    github: 'https://github.com/IBUNHABIBU/ror-social-scaffold',
+    live: '#',
+  },
 ];
 
 export const javasript = [{
