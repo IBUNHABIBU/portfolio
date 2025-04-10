@@ -35,7 +35,7 @@ function Works() {
                     </p>
                     {/* <span> */}
                     <a href={live} target="_blank" className="live" rel="noreferrer">Demo</a>
-                    {/* </span> */}
+                    </span>
                   </div>
                 </div>
                 <div className="right">
