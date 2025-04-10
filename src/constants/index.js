@@ -205,7 +205,7 @@ export const data = [
   //   imTag: 'https://i.pinimg.com/originals/a9/f6/94/a9f69465d972a004ad581f245d6ad581.jpg',
   id: 'kamich',
     title: 'Kamich technoloies website',
-    img: 'kamichome.PNG',
+    imTag: 'kamichome.PNG',
     github: 'https://github.com/IBUNHABIBU/ror-social-scaffold',
     live: 'https://kamich.co.tz/',
   },
