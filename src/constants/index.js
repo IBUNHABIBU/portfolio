@@ -194,7 +194,7 @@ export const data = [
     title: 'Ninos Kitchen',
     icon: 'writing.png',
     desc: 'A kitchen website that allows users to order food online. Users can choose a food from the list of available food and order it. Users can also see the list of food they have ordered and the total amount they have to pay.',
-    imTag: 'https://99designs-blog.imgix.net/blog/wp-content/uploads/2018/10/attachment_100040756-e1538485934255.jpeg?auto=format&q=60&fit=max&w=930',
+    // imTag: 'https://99designs-blog.imgix.net/blog/wp-content/uploads/2018/10/attachment_100040756-e1538485934255.jpeg?auto=format&q=60&fit=max&w=930',
   },
 
   {
