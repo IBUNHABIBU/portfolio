@@ -190,7 +190,7 @@ export const data = [
     live: 'https://kamich.co.tz/',
   },
   {
-    id: 'nino',
+    // id: 'nino',
     // title: 'Ninos Kitchen',
     // icon: 'writing.png',
     // desc: 'A kitchen website that allows users to order food online. Users can choose a food from the list of available food and order it. Users can also see the list of food they have ordered and the total amount they have to pay.',
