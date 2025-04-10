@@ -18,7 +18,7 @@ function Works() {
       >
         { data.map((item) => {
           const {
-            id, title, icon, desc, imTag,
+            id, title, icon, desc, imTag, live
           } = item;
           return (
 
