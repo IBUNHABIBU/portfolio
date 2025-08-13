@@ -185,7 +185,8 @@ export const data = [
   {
     id: 'kiboma',
     title: 'Kiboma tours ',
-    img: 'kibomatours.png',
+    icon: 'globe.png',
+    imTag: 'kibomatours.PNG',
     github: 'https://github.com/IBUNHABIBU/killi',
     live: 'https://kibomatours.vercel.app/',
   },
