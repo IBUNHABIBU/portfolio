@@ -182,13 +182,13 @@ export const html = [{
 ];
 
 export const data = [
-  // {
-  //   id: 'kamich',
-  //   title: 'Kamich technoloies website',
-  //   img: 'social.png',
-  //   github: 'https://github.com/IBUNHABIBU/ror-social-scaffold',
-  //   live: 'https://kamich.co.tz/',
-  // },
+  {
+    id: 'kiboma',
+    title: 'Kiboma tours ',
+    img: 'kibomatours.png',
+    github: 'https://github.com/IBUNHABIBU/killi',
+    live: 'https://kibomatours.vercel.app/',
+  },
   // {
   //   // id: 'nino',
   //   // title: 'Ninos Kitchen',
@@ -204,7 +204,7 @@ export const data = [
   //   desc: 'A workout tracker website that allows users to track their workouts. Users can add a workout and see the list of workouts they have added.',
   //   imTag: 'https://i.pinimg.com/originals/a9/f6/94/a9f69465d972a004ad581f245d6ad581.jpg',
   id: 'kamich',
-    title: 'Kamich technoloies website',
+    title: 'Kamich technologies website',
     icon: 'mobile.png',
     imTag: 'kamichome.PNG',
     github: 'https://github.com/IBUNHABIBU/ror-social-scaffold',
